@@ -18,24 +18,24 @@
     <h1>Aufgabe anlegen</h1>
     <form>
       <div>
-        <h3>Titel*</h3>
+        <label for="title">Titel*</label>
         <p>Tragen Sie hier eine kurze Zusammenfassung der Aufgabe ein.</p>
-        <input type="text" value="" size="30" maxlength="50">
+        <input type="text" id="title">
       </div>
       <div>
-        <h3>Notizen</h3>
+        <label for="notizen">Notizen*</label>
         <p>Tragen Sie hier optionale Notizen ein, die bei der Erledigung der Aufgabe hilfreich sein könnten.</p>
-      <input type="text" value="" size="60" maxlength="50">
+        <input type="text" id="notizen">
       </div>
       <div>
-        <h3>Fälligkeitsdatum*</h3>
+        <label for="fälligkeitsdatum">Fälligkeitsdatum*</label>
         <p>Tragen Sie hier im Format TT.MM.JJJJ ein, bis wann die Aufgabe spätestens erledigt sein muss.</p>
-        <input type="date" value="" size="30" maxlength="50">
+        <input type="date" id="fälligkeitsdatum">
       </div>
       <div>
-        <h3>Verantwortlich*</h3>
+        <label for="verantwortlich">Verantwortlich*</label>
         <p>Tragen Sie hier ein, wem die Aufgabe zugeordnet werden soll.</p>
-        <input type="text" value="" size="30" maxlength="50">
+        <input type="text" id="verantwortlich">
       </div>
       <button href="liste.html">Anlegen</button>
       <button href="liste.html">Abbrechen</button>
